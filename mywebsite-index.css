@@ -4,12 +4,14 @@
 }
 
 .asdf {
-	max-width: 800px;
+	max-width: 820px;
 	margin: 0px auto;
 }
-.color{
+/*.color{
 	background-color:#233651;
-}
+	width:74%;
+	margin:0px auto;
+}*/
 
 .asdf img {
 	width: 100%;
@@ -18,22 +20,21 @@
 
 }
 
-/*.swag {
+.swag {
 	z-index:10000;
+	position:relative;
 }
 
 .swag:hover::before{
-	content:"";
-	/*height:2px;*/
-	background-color:#233651;
-	border: black 1px solid;
-	height:0;
-	width:0;
-	position: absolute;
-	top:0;
-	bottom:0;
-}*/
-
+	    content: "";
+    background-color: #233651;
+    border: #233651 1px solid;
+    position: absolute;
+    bottom: 0;
+    right: 14px;
+    left: 24px;
+    opacity: .78;
+}
 *{
 	box-sizing:border-box;
 }
@@ -61,17 +62,21 @@ body{
 	z-index: 1000;
 	/*border-bottom: 1px solid #233651;*/
 	width:100%;
-	height:75px;
+}
+#border{
+	border-bottom: #233651 3px solid;
+	max-width:820px;
+	margin:0px auto;
 }
 .navy{
 	margin:0px auto;
-	width:80%;
+	width:100%;
 	padding-right: 0px;
 }
 .left{
 	float:right;
 }
-.nav{
+.navy{
 	padding:15px, 0px, 15px, 15px;
 }
 .quart{
@@ -95,14 +100,14 @@ ul li{
 	text-align: center;
 	height:300px;
 }
-:hover{
+/*:hover{
 	bottom-border:#233651;
-}
+}*/
 ul{
 	margin-top: 13px;
 }
 .uno{
-	margin-right: 140px;
+	margin-right: 123px;
 }
 .single{
 	position: absolute;
