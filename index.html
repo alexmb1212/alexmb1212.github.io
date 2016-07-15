@@ -1,7 +1,8 @@
 <html>
 <head>
 	<title>Lev | Music</title>
-	<link rel="stylesheet" type="text/css" href="mywebsite-index.css">
+	<link rel="stylesheet" type="text/css" href="/style.css">
+	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -13,42 +14,25 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
 </head>
-<body>
+<body ng-app="levApp">
 	<div id="pops">
 		<div id="border">
 			<div class="navy clearfix">
 				<div class="clearfix left half">
 					<ul>
-						<li class="swag"><a href="#"><img src="http://i1381.photobucket.com/albums/ah213/Alexander_Lev/Music_zpsuqn7lczm.png"/></a></li>
+						<li class="swag"><a href="#/music"><img src="http://i1381.photobucket.com/albums/ah213/Alexander_Lev/Music_zpsuqn7lczm.png"/></a></li>
 						<li class="swag"><a href="#"><img src="http://i1381.photobucket.com/albums/ah213/Alexander_Lev/News_zpstplcsjr3.png"></a></li>
 						<li class="swag"><a href="#"><img src="http://i1381.photobucket.com/albums/ah213/Alexander_Lev/About_zpsso5tmtzs.png"></a></li>
 						<li class="swag"><a href="#"><img src="http://i1381.photobucket.com/albums/ah213/Alexander_Lev/Contact_zpsvbuzvjen.png"></a></li>
 					</ul>
 				</div>
 				<div class="uno clearfix <!-- left --> quart">
-					<a href="#"><img src="http://i1381.photobucket.com/albums/ah213/Alexander_Lev/Lev_zpsfj0iyjpq.png"></a>
+					<a href="#/"><img src="http://i1381.photobucket.com/albums/ah213/Alexander_Lev/Lev_zpsfj0iyjpq.png"></a>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="container fluid">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="color">
-					<div class="asdf">
-						<img src="http://i1381.photobucket.com/albums/ah213/Alexander_Lev/CLOUDS_artwork_final_zpsocbbfss9.png">
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-12 media">
-				<h2 class="two">My first single:</h2>
-				<div class="single">
-					<iframe style="border: 0; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/track=2349506356/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/" seamless><a href="http://levmusic1993.bandcamp.com/track/cloud-pt-ii-ft-adam-rafowitz">Cloud, Pt. II (ft. Adam Rafowitz) by Lev</a></iframe>
-				</div>
-			</div>
-		</div>
+	<div class="ng-view">
 	</div>
 	<div class="page-footer container-fluid">
 		<a href="https://www.facebook.com/iamlev1993/">
@@ -64,6 +48,11 @@
 			<div class="circlefoot twitter"></div>
 		</a>
 	</div>
+
+<script src="angular.js"></script><!--you might need CDN here-->
+ <script src="angular-route.js"></script><!--you might need CDN here-->
+
+ <script src="script.js"></script>
 </body>
 </html>
 <!-- 

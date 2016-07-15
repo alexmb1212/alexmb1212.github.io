@@ -1,0 +1,6 @@
+I dont scale so dont even try
+
+like the fixed banner. white background gives an aesthetically pleasing design. I think it would be cool if you put an effect on the nav bar that darkens the text when hovering. Also might be cool if you remove the blue border around the ep cover so it's just the album cover floating there in the middle. 
+-font style is really cool
+-media links on bottom look really nice
+-maybe once user starts scrolling make the nav bar mroe transparent so it doesn't block any info

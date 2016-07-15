@@ -117,8 +117,19 @@ ul{
 	margin-top: 20px;
 	height:150px;
 }
+.singleo{
+	position: absolute;
+	top: 75%;
+	left: 50%;
+	padding-top: 108px;
+	transform: translate(-50%, -50%);
+	height:150px;
+}
 h2{
 	color:#233651;
+}
+.two{
+	margin-bottom: 50px;
 }
 .single iframe{
 	display:inline-block;
@@ -126,9 +137,15 @@ h2{
 	margin:0 auto;
 	border: 0; width: 500px; height: 42px;
 }
+.soundcloud iframe{
+	display:inline-block;
+	text-align: center;
+	margin:0 auto;
+	border: 0; width: 500px; height:450px;
+}
 .page-footer{
 	position:bottom;
-	margin-top: 15px;
+	margin-top: 175px;
 	margin-bottom: 30px;
 	height:50px;
 	text-align: center;
